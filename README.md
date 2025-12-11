@@ -2,6 +2,18 @@
 
 Quickly compress, optimize, and inspect GLB files using gltf-transform.
 
+## 🛠️ Command Reference
+
+This extension provides a suite of commands for common GLB operations.
+
+| Command Title | Description | Underlying gltf-transform Operation |
+| :--- | :--- | :--- |
+| **Draco Compress GLB** | Applies **Draco** compression to mesh geometry for high size reduction. | `gltf-transform draco` |
+| **KTX Compress GLB** | Applies **KTX/BasisU** compression to textures, improving load times and reducing file size. | `gltf-transform ktx` |
+| **Draco and KTX Compress GLB** | A one-click command that applies both **Draco** (geometry) and **KTX** (texture) compression. | `gltf-transform draco & ktx` |
+| **Advanced GLB Transform** | Provides a form interface to apply complex, chained optimizations like **Simplify**, **Dedup**, **Weld**, and **Instancing**. | Chained gltf-transform commands |
+| **Inspect GLB File** | Displays a detailed analysis and report of the file's structure, scenes, materials, and potential issues. | `gltf-transform inspect` |
+
 ## Requirements and Installation
 
 This extension is a wrapper around the **gltf-transform CLI** and **KTX-Software** tools. You must have both installed on your system for the compression commands to work.
