@@ -1,5 +1,5 @@
 import { processGlbFiles } from "./utils";
 
 export default async function Command() {
-    await processGlbFiles("draco", "Draco");
+  await processGlbFiles("draco", "Draco");
 }
