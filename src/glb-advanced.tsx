@@ -8,7 +8,7 @@ import {
     Toast,
     popToRoot,
 } from "@raycast/api";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import path from "path";
 import { execAsync, execOptions, getFileSize, formatBytes, CompressionResult } from "./utils";
 

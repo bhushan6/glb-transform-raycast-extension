@@ -28,7 +28,7 @@
     },
     {
       "name": "glb-compress",
-      "title": "GLB Full Compress",
+      "title": "GLB Draco + KTX Compress",
       "description": "Draco geometry + KTX texture compression",
       "mode": "no-view"
     },
@@ -36,6 +36,12 @@
       "name": "glb-advanced",
       "title": "GLB Advanced Transform",
       "description": "Fine-grained control over GLB transformations",
+      "mode": "view"
+    },
+    {
+      "name": "glb-inspect",
+      "title": "GLB Inspect",
+      "description": "Inspect GLB file details",
       "mode": "view"
     }
   ],
