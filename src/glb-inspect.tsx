@@ -138,6 +138,7 @@ export default function Command() {
 
     return (
         <Detail
+            navigationTitle={currentResult.file}
             isLoading={false}
             markdown={markdownContent}
             actions={
