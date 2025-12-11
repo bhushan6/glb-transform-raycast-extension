@@ -16,31 +16,31 @@
   "commands": [
     {
       "name": "glb-draco",
-      "title": "GLB Draco Compress",
+      "title": "Draco Compress GLB",
       "description": "Compress GLB geometry with Draco",
       "mode": "no-view"
     },
     {
       "name": "glb-ktx",
-      "title": "GLB KTX Compress",
+      "title": "KTX Compress GLB",
       "description": "Compress GLB textures with KTX (ETC1S)",
       "mode": "no-view"
     },
     {
       "name": "glb-compress",
-      "title": "GLB Draco + KTX Compress",
+      "title": "Full GLB Compression",
       "description": "Draco geometry + KTX texture compression",
       "mode": "no-view"
     },
     {
       "name": "glb-advanced",
-      "title": "GLB Advanced Transform",
+      "title": "Advance GLB Transform",
       "description": "Fine-grained control over GLB transformations",
       "mode": "view"
     },
     {
       "name": "glb-inspect",
-      "title": "GLB Inspect",
+      "title": "Inspect GLB File",
       "description": "Inspect GLB file details",
       "mode": "view"
     }
