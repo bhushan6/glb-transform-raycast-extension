@@ -52,7 +52,7 @@ async function transformGlb(filePath: string, values: FormValues): Promise<Compr
 
         // Build a chain of individual gltf-transform commands
         // Each command outputs to the same file, processing sequentially
-        const commands: string[] = [`gltf-transform inspect ${filePath}`];
+        const commands: string[] = [];
         let currentInput = `"${filePath}"`;
         const output = `"${outputPath}"`;
 
@@ -96,7 +96,7 @@ async function transformGlb(filePath: string, values: FormValues): Promise<Compr
 
         // 7. Simplify - Reduce vertex count
         if (values.simplify) {
-            const ratio = values.simplifyRatio || "0.75";
+            const ratio = parseFloat(values.simplifyRatio || "0.75");
             addCommand("simplify", `--ratio ${ratio}`);
         }
 
