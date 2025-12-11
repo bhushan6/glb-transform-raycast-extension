@@ -7,7 +7,6 @@ import {
     Toast,
     showToast,
     popToRoot,
-    List,
 } from "@raycast/api";
 import { useState, useEffect } from "react";
 import path from "path";
